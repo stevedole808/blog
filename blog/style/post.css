@@ -1,0 +1,21 @@
+#individual-post-title {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+#individual-post-date {
+	padding: 12px 16px;
+	font-size: 12px;
+	color: lightgrey;
+	border-top: 1px solid #f1f4f8;
+	border-bottom: 1px solid #f1f4f8;
+}
+
+#individual-post-content {
+	padding: 24px 16px;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #495057;
+}

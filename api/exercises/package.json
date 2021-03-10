@@ -1,0 +1,23 @@
+{
+	"name": "my-blog-api",
+	"version": "1.0.0",
+	"description": "My Blog Server",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevedole808/blog.git"
+	},
+	"author": "Steve Dole",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/stevedole808/blog"
+	},
+	"homepage": "https://github.com/stevedole808/blog#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"multer": "^1.4.2"
+	}
+}

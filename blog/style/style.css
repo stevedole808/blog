@@ -9,17 +9,19 @@ body {
 
 header {
 	min-height: 20rem;
-	background-color: blue;
 	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url(/blog/assets/images.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
 	margin-bottom: 20px;
+}
+
+.home-page header {
+	background-image: url(/blog/assets/images.jpg);
 }
 
 header > * {
@@ -81,7 +83,6 @@ header::after {
 
 .post-image {
 	flex-basis: 40%;
-	background-image: url(https://images.unsplash.com/photo-1498588543704-e0d466ddcfe5?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
 	background-size: cover;
 	background-position: center;
 }
@@ -152,4 +153,17 @@ footer {
 	align-items: center;
 	margin-top: 40px;
 	font-size: 14px;
+}
+
+.navigation a {
+	text-decoration: none;
+	border: 1px solid #004186;
+	border-radius: 4px;
+	padding: 4px 8px;
+	color: #004186;
+	font-size: 12px;
+}
+
+a.post-link {
+	text-decoration: none;
 }
