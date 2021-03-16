@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/stevedole808/blog#readme",
 	"dependencies": {
+		"body-parser": "^1.19.0",
 		"express": "^4.17.1",
 		"multer": "^1.4.2"
 	}
